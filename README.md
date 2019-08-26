@@ -10,3 +10,4 @@ Note: This is not intended to be used with Pi Hats directly, however it is possi
 ![Pinout](https://github.com/vintlabs/ESP32-Zip/raw/master/pinout.png)
 
 Note that as of 2019-09-26 the first run of boards is being ordered and thus the design has not been fully tested yet!
+Once testing is done the boards will be made available on amazon.ca
