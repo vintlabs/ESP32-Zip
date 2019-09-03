@@ -1,6 +1,5 @@
 (fp_lib_table
-  (lib (name ESP32-Zip)(type KiCad)(uri /home/pvint/Elec/ESP32-Zip)(options "")(descr ""))
-  (lib (name "Switch Tactile")(type KiCad)(uri /home/pvint/Elec/ESP32-Zip/SW_TACTILE_PO21301.kicad_mod)(options "")(descr ""))
-  (lib (name 12V-SmartSwitch)(type KiCad)(uri /home/pvint/Elec/12V-SmartSwitch)(options "")(descr ""))
+  (lib (name ESP32-Zip)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name "Switch Tactile")(type KiCad)(uri ${KIPRJMOD}/SW_TACTILE_PO21301.kicad_mod)(options "")(descr ""))
   (lib (name tmp)(type KiCad)(uri ${KIPRJMOD}/tmp)(options "")(descr ""))
 )

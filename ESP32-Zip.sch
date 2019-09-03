@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ESP32-Zip-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -640,7 +639,6 @@ Wire Wire Line
 	7700 3500 7700 3450
 Wire Wire Line
 	7700 3450 7850 3450
-Connection ~ 7700 3450
 Text Notes 6850 4300 0    50   ~ 0
 Pinout on last 5 pins to match\nRaspberry Pi for use with\nVintLabs modules
 $Comp
