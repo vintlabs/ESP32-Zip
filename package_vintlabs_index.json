@@ -1,0 +1,39 @@
+{
+  "packages": 
+  [
+    {
+       "name": "VintLabs",
+       "maintainer": "VintLabs",
+       "help": 
+       {
+         "online": "http://vintlabs.com/forum"
+       },
+       "websiteURL": "http://vintlabs.com",      
+       "platforms": 
+       [
+         {
+           "category": "Contributed",
+           "help": 
+           {
+             "online": "http://vintlabs.com/forum"
+           },
+           "url": "https://raw.githubusercontent.com/vintlabs/ESP32-Zip/master/vintlabs-esp32-v1.0.0.tar.bz2",
+           "checksum": "SHA-256:f5d9c6011c5730e06e982895ef4f4f1acda0af506cd1829008d5460393a17b85",
+           "archiveFileName": "vintlabs-esp32-v1.0.0.tar.bz2",
+           "size": "892",
+           "name": "VintLabs ESP32 Devkit Boards",
+           "version": "1.0.0",
+           "architecture": "esp32",
+           "boards": 
+           [
+             {
+               "name": "PWM Driver v1"
+             }
+           ],
+           "toolsDependencies": []
+         }
+      ],
+      "tools":[]
+    }
+  ]
+}

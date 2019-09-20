@@ -1,0 +1,63 @@
+# VintLabs ESP32 DevKit Board Configuration
+#
+# For more information see:
+# - https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
+# - https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+# - http://forum.arduino.cc/index.php?topic=457405
+
+
+##############################################################
+
+
+vintlabs-pwm-v1.name=VintLabs ESP32 PWM Driver v1
+
+vintlabs-pwm-v1.upload.tool=esptool_py
+vintlabs-pwm-v1.upload.maximum_size=1310720
+vintlabs-pwm-v1.upload.maximum_data_size=327680
+vintlabs-pwm-v1.upload.wait_for_upload_port=true
+
+vintlabs-pwm-v1.serial.disableDTR=true
+vintlabs-pwm-v1.serial.disableRTS=true
+
+vintlabs-pwm-v1.build.mcu=esp32
+vintlabs-pwm-v1.build.core=esp32
+vintlabs-pwm-v1.build.variant=vintlabsPWMv1
+vintlabs-pwm-v1.build.board=ESP32_DEV
+
+vintlabs-pwm-v1.build.f_cpu=240000000L
+vintlabs-pwm-v1.build.flash_mode=dio
+vintlabs-pwm-v1.build.flash_size=4MB
+vintlabs-pwm-v1.build.boot=dio
+vintlabs-pwm-v1.build.partitions=default
+vintlabs-pwm-v1.build.defines=
+
+vintlabs-pwm-v1.menu.FlashFreq.80=80MHz
+vintlabs-pwm-v1.menu.FlashFreq.80.build.flash_freq=80m
+vintlabs-pwm-v1.menu.FlashFreq.40=40MHz
+vintlabs-pwm-v1.menu.FlashFreq.40.build.flash_freq=40m
+
+vintlabs-pwm-v1.menu.UploadSpeed.921600=921600
+vintlabs-pwm-v1.menu.UploadSpeed.921600.upload.speed=921600
+vintlabs-pwm-v1.menu.UploadSpeed.115200=115200
+vintlabs-pwm-v1.menu.UploadSpeed.115200.upload.speed=115200
+vintlabs-pwm-v1.menu.UploadSpeed.256000.windows=256000
+vintlabs-pwm-v1.menu.UploadSpeed.256000.upload.speed=256000
+vintlabs-pwm-v1.menu.UploadSpeed.230400.windows.upload.speed=256000
+vintlabs-pwm-v1.menu.UploadSpeed.230400=230400
+vintlabs-pwm-v1.menu.UploadSpeed.230400.upload.speed=230400
+vintlabs-pwm-v1.menu.UploadSpeed.460800.linux=460800
+vintlabs-pwm-v1.menu.UploadSpeed.460800.macosx=460800
+vintlabs-pwm-v1.menu.UploadSpeed.460800.upload.speed=460800
+vintlabs-pwm-v1.menu.UploadSpeed.512000.windows=512000
+vintlabs-pwm-v1.menu.UploadSpeed.512000.upload.speed=512000
+
+vintlabs-pwm-v1.menu.DebugLevel.none=None
+vintlabs-pwm-v1.menu.DebugLevel.none.build.code_debug=0
+vintlabs-pwm-v1.menu.DebugLevel.error=Error
+vintlabs-pwm-v1.menu.DebugLevel.error.build.code_debug=1
+vintlabs-pwm-v1.menu.DebugLevel.warn=Warn
+vintlabs-pwm-v1.menu.DebugLevel.warn.build.code_debug=2
+vintlabs-pwm-v1.menu.DebugLevel.info=Info
+vintlabs-pwm-v1.menu.DebugLevel.info.build.code_debug=3
+vintlabs-pwm-v1.menu.DebugLevel.debug=Debug
+
