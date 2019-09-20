@@ -7,7 +7,7 @@ Note: This is not intended to be used with Pi Hats directly, however it is possi
 ### Board bottom:
 ![Board Bottom](https://github.com/vintlabs/ESP32-Zip/raw/master/bottom.png)
 ### Pinout Diagram:
-![Pinout](https://github.com/vintlabs/ESP32-Zip/raw/master/pinout.png)
+![Pinout](https://github.com/vintlabs/ESP32-Zip/raw/master/Pinout.png)
 
-Note that as of 2019-09-26 the first run of boards is being ordered and thus the design has not been fully tested yet!
+Note that as of 2019-09-20 the first run of boards is in manufacturing and thus the design has not been fully tested yet!
 Once testing is done the boards will be made available on amazon.ca
