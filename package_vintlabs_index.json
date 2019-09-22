@@ -12,7 +12,7 @@
        "platforms": 
        [
          {
-           "category": "ESP32",
+           "category": "Contributed",
            "help": 
            {
              "online": "http://vintlabs.com/forum"
