@@ -6,7 +6,14 @@
 # - http://forum.arduino.cc/index.php?topic=457405
 
 menu.UploadSpeed=Upload Speed
-menu.CpuFrequency=CPU Frequency
+menu.CPUFreq=CPU Frequency
+menu.FlashFreq=Flash Frequency
+menu.FlashMode=Flash Mode
+menu.FlashSize=Flash Size
+menu.PartitionScheme=Partition Scheme
+menu.DebugLevel=Core Debug Level
+menu.PSRAM=PSRAM
+menu.Revision=Board Revision
 
 ##############################################################
 
@@ -39,6 +46,8 @@ vintlabs-pwm-v1.menu.FlashFreq.40=40MHz
 vintlabs-pwm-v1.menu.FlashFreq.40.build.flash_freq=40m
 
 vintlabs-pwm-v1.menu.UploadSpeed=Upload Speed
+vintlabs-pwm-v1.menu.UploadSpeed.2000000=2000000
+vintlabs-pwm-v1.menu.UploadSpeed.2000000.upload.speed=2000000
 vintlabs-pwm-v1.menu.UploadSpeed.921600=921600
 vintlabs-pwm-v1.menu.UploadSpeed.921600.upload.speed=921600
 vintlabs-pwm-v1.menu.UploadSpeed.115200=115200
