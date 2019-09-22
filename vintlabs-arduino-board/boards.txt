@@ -39,6 +39,7 @@ vintlabs-pwm-v1.build.flash_size=4MB
 vintlabs-pwm-v1.build.boot=dio
 vintlabs-pwm-v1.build.partitions=default
 vintlabs-pwm-v1.build.defines=
+vintlabs-pwm-v1.build.board=ESP32_DEV
 
 vintlabs-pwm-v1.menu.FlashFreq.80=80MHz
 vintlabs-pwm-v1.menu.FlashFreq.80.build.flash_freq=80m
