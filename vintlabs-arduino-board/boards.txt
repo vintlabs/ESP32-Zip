@@ -35,6 +35,7 @@ vintlabs-pwm-v1.build.board=ESP32_DEV
 
 vintlabs-pwm-v1.build.f_cpu=240000000L
 vintlabs-pwm-v1.build.flash_mode=dio
+vintlabs-pwm-v1.build.flash_freq=40m
 vintlabs-pwm-v1.build.flash_size=4MB
 vintlabs-pwm-v1.build.boot=dio
 vintlabs-pwm-v1.build.partitions=default
