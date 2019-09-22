@@ -21,7 +21,7 @@
            "checksum": "SHA-256:eb3085ebc71f96754e11c97019080e6295a7c53a5e8804e3a800f6bd60288d18",
            "archiveFileName": "vintlabs-esp32-v1.0.0.tar.bz2",
            "size": "1009",
-           "name": "vintlabs",
+           "name": "VintLabs DevKits (ESP32)",
            "version": "1.0.0",
            "architecture": "esp32",
            "boards": 
