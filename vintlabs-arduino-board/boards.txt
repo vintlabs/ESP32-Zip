@@ -36,6 +36,7 @@ vintlabs-pwm-v1.menu.FlashFreq.80.build.flash_freq=80m
 vintlabs-pwm-v1.menu.FlashFreq.40=40MHz
 vintlabs-pwm-v1.menu.FlashFreq.40.build.flash_freq=40m
 
+vintlabs-pwm-v1.menu.UploadSpeed=Upload Speed
 vintlabs-pwm-v1.menu.UploadSpeed.921600=921600
 vintlabs-pwm-v1.menu.UploadSpeed.921600.upload.speed=921600
 vintlabs-pwm-v1.menu.UploadSpeed.115200=115200
