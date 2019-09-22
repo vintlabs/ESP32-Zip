@@ -18,16 +18,16 @@
              "online": "http://vintlabs.com/forum"
            },
            "url": "https://github.com/vintlabs/ESP32-Zip/raw/master/vintlabs-esp32-v1.0.0.tar.bz2",
-           "checksum": "SHA-256:86afd9952cab220a939bf0dee695c7db9d004b843219eab563c4c87f2811573a",
+           "checksum": "SHA-256:eb3085ebc71f96754e11c97019080e6295a7c53a5e8804e3a800f6bd60288d18",
            "archiveFileName": "vintlabs-esp32-v1.0.0.tar.bz2",
-           "size": "712",
-           "name": "VintLabs ESP32 Devkit Boards",
+           "size": "1009",
+           "name": "vintlabs",
            "version": "1.0.0",
            "architecture": "esp32",
            "boards": 
            [
              {
-               "name": "vintlabs-pwm-v1"
+               "name": "VintLabs ESP32 PWM Driver"
              }
            ],
            "toolsDependencies": []
