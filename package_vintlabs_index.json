@@ -18,9 +18,9 @@
              "online": "http://vintlabs.com/forum"
            },
            "url": "https://github.com/vintlabs/ESP32-Zip/raw/master/vintlabs-esp32-v1.0.0.tar.bz2",
-           "checksum": "SHA-256:eb3085ebc71f96754e11c97019080e6295a7c53a5e8804e3a800f6bd60288d18",
+           "checksum": "SHA-256:35e317e9e641b2c13e3ab3db26e466477d8c1811c9a343fe06e4ffcd2e80e444",
            "archiveFileName": "vintlabs-esp32-v1.0.0.tar.bz2",
-           "size": "1009",
+           "size": "1036",
            "name": "VintLabs DevKits (ESP32)",
            "version": "1.0.0",
            "architecture": "esp32",
@@ -30,25 +30,8 @@
                "name": "VintLabs ESP32 PWM Driver"
              }
            ],
-           "toolsDependencies": [
-            {
-              "packager": "esp32",
-              "name": "xtensa-esp32-elf-gcc",
-              "version": "1.22.0-80-g6c4433a-5.2.0"
-            },
-            {
-              "packager": "esp32",
-              "name": "esptool_py",
-              "version": "2.6.1"
-            },
-            {
-              "packager": "esp32",
-              "name": "mkspiffs",
-              "version": "0.2.3"
-            }
-          ]
- 
-         
+           "toolsDependencies": []
+         }
       ],
       "tools":[]
     }
