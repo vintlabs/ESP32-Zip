@@ -18,9 +18,9 @@
              "online": "http://vintlabs.com/forum"
            },
            "url": "https://github.com/vintlabs/ESP32-Zip/raw/master/vintlabs-esp32-v1.0.0.tar.bz2",
-           "checksum": "SHA-256:9e9de85f263940995541878faf8baf9f7f23dd666acfef43344d79a9bfd8ac25",
+           "checksum": "SHA-256:86afd9952cab220a939bf0dee695c7db9d004b843219eab563c4c87f2811573a",
            "archiveFileName": "vintlabs-esp32-v1.0.0.tar.bz2",
-           "size": "1097",
+           "size": "712",
            "name": "VintLabs ESP32 Devkit Boards",
            "version": "1.0.0",
            "architecture": "esp32",
