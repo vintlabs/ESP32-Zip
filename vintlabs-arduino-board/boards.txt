@@ -30,7 +30,7 @@ vintlabs-pwm-v1.serial.disableRTS=true
 
 vintlabs-pwm-v1.build.mcu=esp32
 vintlabs-pwm-v1.build.core=esp32
-vintlabs-pwm-v1.build.variant=vintlabsPWMv1
+vintlabs-pwm-v1.build.variant=esp32
 vintlabs-pwm-v1.build.board=ESP32_DEV
 
 vintlabs-pwm-v1.build.f_cpu=240000000L
