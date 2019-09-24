@@ -17,12 +17,12 @@
            {
              "online": "http://vintlabs.com/forum"
            },
-           "url": "https://github.com/vintlabs/ESP32-Zip/raw/master/vintlabs-esp32-v1.0.2.tar.bz2",
-           "checksum": "SHA-256:b78d397b4d62353edbbd9d17b9cbd2a5f65b09c064a139cae48e0dec04d1120a",
-           "archiveFileName": "vintlabs-esp32-v1.0.2.tar.bz2",
-           "size": "33098226",
+           "url": "https://github.com/vintlabs/ESP32-Zip/raw/master/vintlabs-esp32-v1.0.3.tar.bz2",
+           "checksum": "SHA-256:fdff6ac5527fd4f4cd4b69c3e525e09f0229d8aa8ba9b94c202fbeaefd2e568a",
+           "archiveFileName": "vintlabs-esp32-v1.0.3.tar.bz2",
+           "size": "33094250",
            "name": "VintLabs DevKits (ESP32)",
-           "version": "1.0.2",
+           "version": "1.0.3",
            "architecture": "esp32",
            "boards": 
            [
