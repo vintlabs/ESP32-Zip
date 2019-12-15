@@ -950,8 +950,6 @@ F 3 "~" H 10750 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5750 4900 5750
-Wire Wire Line
 	4050 5000 4400 5000
 Wire Wire Line
 	4400 5100 4400 5000
@@ -973,31 +971,6 @@ Connection ~ 6550 1400
 Wire Wire Line
 	6550 1700 6200 1700
 Connection ~ 6550 1700
-$Comp
-L Device:R R7
-U 1 1 5C81D173
-P 4300 7200
-F 0 "R7" V 4093 7200 50  0000 C CNN
-F 1 "10k" V 4184 7200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4230 7200 50  0001 C CNN
-F 3 "~" H 4300 7200 50  0001 C CNN
-	1    4300 7200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4450 7000 4450 7200
-Connection ~ 4450 7000
-$Comp
-L power:VDD #PWR011
-U 1 1 5C889A5F
-P 4150 7200
-F 0 "#PWR011" H 4150 7050 50  0001 C CNN
-F 1 "VDD" H 4167 7373 50  0000 C CNN
-F 2 "" H 4150 7200 50  0001 C CNN
-F 3 "" H 4150 7200 50  0001 C CNN
-	1    4150 7200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 5D4F8308
@@ -1278,4 +1251,32 @@ F 3 "" H 9450 4200 50  0001 C CNN
 	1    9450 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C2
+U 1 1 5DF82B9C
+P 5650 2050
+F 0 "C2" H 5765 2096 50  0000 L CNN
+F 1 "0.1u" H 5765 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5688 1900 50  0001 C CNN
+F 3 "~" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF82BA3
+P 5650 2200
+F 0 "#PWR0101" H 5650 1950 50  0001 C CNN
+F 1 "GND" H 5655 2027 50  0000 C CNN
+F 2 "" H 5650 2200 50  0001 C CNN
+F 3 "" H 5650 2200 50  0001 C CNN
+	1    5650 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 1850 2    50   BiDi ~ 0
+EN
+Wire Wire Line
+	5650 1900 5650 1850
+Wire Wire Line
+	5650 1850 5750 1850
 $EndSCHEMATC
