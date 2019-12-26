@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ESP32-Zip-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -254,14 +255,9 @@ F 3 "" H 1400 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 3250 1350 3250
-Wire Wire Line
-	1350 3250 1350 3150
-Wire Wire Line
 	1450 3150 1450 3250
 Wire Wire Line
 	1450 3250 1400 3250
-Connection ~ 1400 3250
 NoConn ~ 1750 2950
 Text GLabel 1850 2850 2    50   BiDi ~ 0
 USB_DN
@@ -1279,4 +1275,5 @@ Wire Wire Line
 	5650 1900 5650 1850
 Wire Wire Line
 	5650 1850 5750 1850
+NoConn ~ 1350 3150
 $EndSCHEMATC
