@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ESP32-Zip-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1276,4 +1275,30 @@ Wire Wire Line
 Wire Wire Line
 	5650 1850 5750 1850
 NoConn ~ 1350 3150
+$Comp
+L Device:C C?
+U 1 1 5E2B18A1
+P 2350 2350
+F 0 "C?" H 2465 2396 50  0000 L CNN
+F 1 "C" H 2465 2305 50  0000 L CNN
+F 2 "" H 2388 2200 50  0001 C CNN
+F 3 "~" H 2350 2350 50  0001 C CNN
+	1    2350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2B1DC2
+P 2350 2500
+F 0 "#PWR?" H 2350 2250 50  0001 C CNN
+F 1 "GND" H 2355 2327 50  0000 C CNN
+F 2 "" H 2350 2500 50  0001 C CNN
+F 3 "" H 2350 2500 50  0001 C CNN
+	1    2350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2200 2350 2150
+Wire Wire Line
+	2350 2150 2600 2150
 $EndSCHEMATC
