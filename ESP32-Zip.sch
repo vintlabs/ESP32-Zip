@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -254,14 +254,9 @@ F 3 "" H 1400 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 3250 1350 3250
-Wire Wire Line
-	1350 3250 1350 3150
-Wire Wire Line
 	1450 3150 1450 3250
 Wire Wire Line
 	1450 3250 1400 3250
-Connection ~ 1400 3250
 NoConn ~ 1750 2950
 Text GLabel 1850 2850 2    50   BiDi ~ 0
 USB_DN
@@ -950,8 +945,6 @@ F 3 "~" H 10750 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5750 4900 5750
-Wire Wire Line
 	4050 5000 4400 5000
 Wire Wire Line
 	4400 5100 4400 5000
@@ -974,31 +967,6 @@ Wire Wire Line
 	6550 1700 6200 1700
 Connection ~ 6550 1700
 $Comp
-L Device:R R7
-U 1 1 5C81D173
-P 4300 7200
-F 0 "R7" V 4093 7200 50  0000 C CNN
-F 1 "10k" V 4184 7200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4230 7200 50  0001 C CNN
-F 3 "~" H 4300 7200 50  0001 C CNN
-	1    4300 7200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4450 7000 4450 7200
-Connection ~ 4450 7000
-$Comp
-L power:VDD #PWR011
-U 1 1 5C889A5F
-P 4150 7200
-F 0 "#PWR011" H 4150 7050 50  0001 C CNN
-F 1 "VDD" H 4167 7373 50  0000 C CNN
-F 2 "" H 4150 7200 50  0001 C CNN
-F 3 "" H 4150 7200 50  0001 C CNN
-	1    4150 7200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 5D4F8308
 P 8800 5150
@@ -1009,19 +977,6 @@ F 3 "~" H 8800 5150 50  0001 C CNN
 	1    8800 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDD #PWR028
-U 1 1 5D50DE7C
-P 9450 4200
-F 0 "#PWR028" H 9450 4050 50  0001 C CNN
-F 1 "VDD" H 9467 4373 50  0000 C CNN
-F 2 "" H 9450 4200 50  0001 C CNN
-F 3 "" H 9450 4200 50  0001 C CNN
-	1    9450 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 4250 9450 4200
 Wire Wire Line
 	9100 4250 9450 4250
 Wire Wire Line
@@ -1217,8 +1172,6 @@ Wire Wire Line
 	6050 4700 6050 4750
 Wire Wire Line
 	1300 6800 1300 7300
-Text Notes 2800 3200 0    50   ~ 10
-Need to figure out how to power down the CP2102N
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5D60C3E5
@@ -1259,7 +1212,7 @@ L Device:R R12
 U 1 1 5D6EB537
 P 2800 5750
 F 0 "R12" H 2870 5796 50  0000 L CNN
-F 1 "R" H 2870 5705 50  0000 L CNN
+F 1 "2.2k" H 2870 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 5750 50  0001 C CNN
 F 3 "~" H 2800 5750 50  0001 C CNN
 	1    2800 5750
@@ -1280,4 +1233,72 @@ F 3 "" H 2800 6400 50  0001 C CNN
 	1    2800 6400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9450 4250 9450 4200
+$Comp
+L power:VDD #PWR028
+U 1 1 5D50DE7C
+P 9450 4200
+F 0 "#PWR028" H 9450 4050 50  0001 C CNN
+F 1 "VDD" H 9467 4373 50  0000 C CNN
+F 2 "" H 9450 4200 50  0001 C CNN
+F 3 "" H 9450 4200 50  0001 C CNN
+	1    9450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5DF82B9C
+P 5650 2050
+F 0 "C2" H 5765 2096 50  0000 L CNN
+F 1 "0.1u" H 5765 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5688 1900 50  0001 C CNN
+F 3 "~" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF82BA3
+P 5650 2200
+F 0 "#PWR0101" H 5650 1950 50  0001 C CNN
+F 1 "GND" H 5655 2027 50  0000 C CNN
+F 2 "" H 5650 2200 50  0001 C CNN
+F 3 "" H 5650 2200 50  0001 C CNN
+	1    5650 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 1850 2    50   BiDi ~ 0
+EN
+Wire Wire Line
+	5650 1900 5650 1850
+Wire Wire Line
+	5650 1850 5750 1850
+NoConn ~ 1350 3150
+$Comp
+L Device:C C?
+U 1 1 5E2B18A1
+P 2350 2350
+F 0 "C?" H 2465 2396 50  0000 L CNN
+F 1 "C" H 2465 2305 50  0000 L CNN
+F 2 "" H 2388 2200 50  0001 C CNN
+F 3 "~" H 2350 2350 50  0001 C CNN
+	1    2350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2B1DC2
+P 2350 2500
+F 0 "#PWR?" H 2350 2250 50  0001 C CNN
+F 1 "GND" H 2355 2327 50  0000 C CNN
+F 2 "" H 2350 2500 50  0001 C CNN
+F 3 "" H 2350 2500 50  0001 C CNN
+	1    2350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2200 2350 2150
+Wire Wire Line
+	2350 2150 2600 2150
 $EndSCHEMATC
